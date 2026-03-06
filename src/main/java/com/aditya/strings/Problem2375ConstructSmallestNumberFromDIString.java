@@ -33,7 +33,6 @@ public class Problem2375ConstructSmallestNumberFromDIString {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter pattern: ");
         String pattern = sc.nextLine();
-
         String result = smallestNumber(pattern);
         System.out.println("The pattern is: " + result);
 
